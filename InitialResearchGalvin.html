@@ -10,9 +10,41 @@
 <link href="scss/_variables.scss">
 <!-- Change the title to include your name!-->
     <title>Galvin's Initial Research</title>
+
+    <style>
+        body {
+            background-color: #659DBD;
+            color: rgb(11, 41, 53);
+            font-weight: 100;
+            font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;   
+        }
+    </style>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg bg-5b93b4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" >Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Research
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="InitialResearchGalvin.html">Initial Research</a></li>
+              <li><a class="dropdown-item" href="RootCauseGalvin.html">Root Causes</a></li>
+              <li><a class="dropdown-item" href="CaseStudyGalvin.html">Case Study</a></li>
+              <li><a class="dropdown-item" href="ResearchProposal.html">Research Proposal</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 <!-- STEP TWO: CUSTOMIZE THE LOOK-->
 <!-- Make adjustments to the display size, text color, background color, border, text alignment, etc... -->
 <!-- Use 4 different types of bootstrap classes -->
@@ -22,29 +54,87 @@
   Use https://getbootstrap.com/docs/5.2/customize/color/ to adjust color attributes 
   (there's also different pages with background color, opacity, etc )-->  
 <div class="container text-center">
-    <div class="blue-800 m-4 display-6">Initial Research</div>
+    <div class="$blue-800; m-4 display-6">Initial Research</div>
 <!-- To begin to understand how the following "grid" works, check out this link. This is the code we have below
 https://getbootstrap.com/docs/5.2/layout/grid/#equal-width  -->
     <div class="row">
-      <div class="col p-4 mb-5 display-4 p-3 bg-info bg-opacity-10 border border-info border-start-0" style="--bs-bg-opacity: .5;">
+      <div class="col p-4 mb-5 display-4 p-3 bg-info bg-opacity-10 border-#548baa;">
         <em class=>Problem statement</em>
       </div>
-      <div class="col p-4  mb-5 display-4 p-3 bg-info bg-opacity-10 border border-info border-start-0" style="--bs-bg-opacity: .5; ">
+      <div class="col p-4  mb-5 display-4 p-3 bg-info bg-opacity-10 border-#548baa;" >
         <em>Need statement</em>
       </div>
     </div>
     <div class="row fw-light text-start">
       <div class="col ">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates expedita ipsam nisi maiores totam dolor ab aspernatur, impedit debitis quod dolore odio, odit sed quasi, eligendi natus placeat accusantium sint!
+        Jews worldwide have been facing unprecedented levels of antisemitism since the start of the COVID-19 pandemic in both cyber and public spaces. 
       </div>
       <div class="col">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit libero quaerat. Obcaecati a itaque accusantium, maiores delectus debitis voluptas dolor magnam optio repudiandae pariatur vel libero perferendis voluptatum exercitationem!
-      </div>
-      <div class="col">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam inventore doloremque odio necessitatibus nesciunt sit itaque quos magnam non. Recusandae perspiciatis voluptatem voluptatum veniam sed reprehenderit molestiae repudiandae qui atque?
+        Countries worldwide need to work on better protecting their Jewish citizens against antisemitism by putting in place measures to educate their populations on the issue and prevent the spread of antisemitic rhetoric and violence. 
       </div>
     </div>
   </div>
+<br></br>
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col">
+        U.S. Jews:
+        <ul>
+          <li>2,172 reported incidents of assault, vandalism, and harassment in 2021</li>
+          <li> 61% increase in incidents at Jewish institutions (525)</li>
+          <li>3/4 of American Jews believe there is more U.S. antisemitism today than 5 years ago</li>
+          <li>The most targeted religious group in the U.S.</li>
+        </ul>
+        
+      </div>
+      <div class="col">
+        Worldwide:
+        <ul>
+          <li>World Zionist Organization & Jewish Agency reported an average of 10 antisemitic incidents a day in 2021 (likely underreported)</li>
+          <li>2021 was the most antisemitic year in the last decade</li>
+          <li>Europe: 50% of the global total</li>
+          <li>UK: 1,308 reported incidents</li>
+          <li>Germany: 1,850 reported incidents</li>
+        </ul>
+      </div>
+      <div class="col">
+        Progress being made:
+        <ul>
+          <li>Many countries adopting the IHRA definition of antisemitism</li>
+          <li>Holocaust education laws passed</li>
+          <li>Laws preventing the use of Holocaust symbols</li>
+        </ul>
+      </div>
+    </div>
+<br>
+
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          Sources:
+          <ul>
+            <li>Anti-Defamation League 
+              <ul>https://www.adl.org/blog/coronavirus-antisemitism</ul>
+              <ul>Bias: Slight left skew</ul>
+              <ul>Fact reporting = Mix of fact reporting and analysis</ul>
+            <li>Times of Israel
+              <ul>https://www.timesofisrael.com/2021-was-the-worst-year-in-a-decade-for-aantisemitism-around-the-world-report-finds/</ul>
+              <ul>Bias: Center/Slight Right Skew</ul>
+              <ul>Fact reporting = Mix of fact reporting and analysis</ul>
+            <li>ABC News
+              <ul>https://abcnews.go.com/US/antisemitic-incidents-us-reached-time-high-2021-report/story?id=84314502</ul>
+              <ul>Bias: Slight left-skew</ul>
+              <ul>Fact reporting = Mostly factual</ul>
+            <li>Other sources: 
+              <ul>FBI hate crime statistics</ul>
+              <ul>Pew Research Center</ul> 
+            </li>
+          </ul>
+          
+        </div>
+        </div>
+      </div>
+    
 <!-- Add the bootstrap script down here -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
